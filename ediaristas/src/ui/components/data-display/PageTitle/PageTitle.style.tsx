@@ -5,8 +5,6 @@ export const PageTitleContainer = styled("div")`
   text-align: center;
 `;
 
-let cor = "grey";
-
 export const PageTitleStyled = styled("h2")`
   margin: 0;
   color: ${({ theme }) => theme.palette.primary.main};
