@@ -24,6 +24,7 @@ export default function useIndex(){
                 diaristas: UserShortInterface[],
                 quantidade_diaristas: number,
             }>('/api/diaristas-cidade?cep='+cep.replace(/\D/g, ''));
+            
             setDiaristas(data.diaristas);
             setDiaristasRestantes(data.quantidade_diaristas);
             setBuscaFeita(true);
